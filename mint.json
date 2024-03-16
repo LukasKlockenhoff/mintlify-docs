@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Piguesso Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
+    "primary": "#AE6DF5",
     "light": "#07C983",
     "dark": "#0D9373",
     "anchors": {
@@ -17,40 +17,40 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Contact",
+      "url": "mailto:skuesser@gmail.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Take me Back",
+    "url": "https://piguesso.vercel.app"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "User Documentation",
+      "url": "user-docs"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/piguesso/piguesso-app"
+    },
+    {
+      "name": "Mintlify",
       "icon": "book-open-cover",
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Quick, Draw! by Google",
+      "icon": "google",
+      "url": "https://quickdraw.withgoogle.com"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Idea",
       "pages": [
         "introduction",
         "quickstart",
@@ -84,8 +84,6 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/lukasklockenhoff"
   }
 }
