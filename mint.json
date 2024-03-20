@@ -8,11 +8,11 @@
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#AE6DF5",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "light": "#AE6DF5",
+    "dark": "#7710E5",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#AE6DF5",
+      "to": "#7710E5"
     }
   },
   "topbarLinks": [
@@ -25,12 +25,6 @@
     "name": "Take me Back",
     "url": "https://piguesso.vercel.app"
   },
-  "tabs": [
-    {
-      "name": "User Documentation",
-      "url": "user-docs"
-    }
-  ],
   "anchors": [
     {
       "name": "Github",
@@ -52,30 +46,27 @@
     {
       "group": "Idea",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction", 
+        "features", 
+        "playing"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Details",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "details/design",
+        "details/techstack",
+        "details/architecture",
+        "details/gameplay",
+        "details/the-model"
       ]
     },
     {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "group": "The Paper",
+      "pages": ["paper/introduction"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Gamestate Api Reference",
       "pages": [
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
